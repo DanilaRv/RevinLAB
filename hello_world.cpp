@@ -2,7 +2,7 @@ cat > hello_world.cpp << 'EOF'
 #include <iostream>
 #include <string>
 
-// Исправленный код без using namespace std;
+// Исправленный_код_без_using namespace std;
 // Автор: Ревин Д.А.
 // Дата: 28.05.2026
 

@@ -1,22 +1,14 @@
-cat > hello_world.cpp << 'EOF'
 #include <iostream>
 #include <string>
 
 // Исправленный код без using namespace std;
-// Автор: Ревин Д.А.
-// Дата: 28.05.2026
-
-// Главная функция программы
 int main() {
-    std::string name;
+    std::string user_name;                    // изменили имя переменной
     
-    // Запрашиваем имя пользователя через стандартный поток ввода
     std::cout << "Enter your name: ";
-    std::getline(std::cin, name);
+    std::getline(std::cin, user_name);        // изменили имя переменной
     
-    // Выводим приветствие в стандартный поток вывода
-    std::cout << "Hello world from " << name << std::endl;
+    std::cout << "Hello world from " << user_name << std::endl;
     
     return 0;
 }
-EOF
